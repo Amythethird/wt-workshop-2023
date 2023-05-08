@@ -27,7 +27,7 @@
   margin: 1rem;
   padding: 1rem 2rem;
 
-  :focus{
+  &:focus{
     outline: max(1px, 0.1em) dashed currentColor;
     outline-offset: -0.25em;
   }

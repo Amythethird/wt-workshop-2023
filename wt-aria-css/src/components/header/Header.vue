@@ -3,17 +3,17 @@
     <li  class="logo">Developer</li>
     <nav aria-label="Main Navigation">
       <ul>
-        <li><a href="#">About</a></li>
+        <li>Über mich</li>
         <li class="dropdown">
           <!-- aria-expanded needs managed with Javascript -->
-          <button
+          <div
               type="button"
               class="dropdown__title"
               aria-expanded="false"
               aria-controls="sweets-dropdown"
           >
-            Service
-          </button>
+            Services
+          </div>
           <ul class="dropdown__menu" id="sweets-dropdown">
             <li>Webdevelopment</li>
             <li>Networking</li>
@@ -21,7 +21,7 @@
             <li>SEO</li>
           </ul>
         </li>
-        <li><a href="#">Order</a></li>
+        <li>Kontakt</li>
       </ul>
     </nav>
   </div>

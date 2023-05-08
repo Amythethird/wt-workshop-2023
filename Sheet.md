@@ -48,20 +48,27 @@ aria-valuemin | Legt den niedrigsten Wert für ein Element mit einem numerischen
 aria-valuenow | Gibt den aktuellen Wert für ein Element mit einem numerischen Wert an.
 aria-valuetext | Gibt einen Textwert für ein Element mit einem numerischen Wert an.
 
+# Aria Role
+Tastenbefehl/Befehl | Funktion 
+-------- | -------- | 
+role="alert"| Gibt an, dass ein Element wichtige und zeitkritische Informationen enthält, die für den Benutzer sofortige Aufmerksamkeit erfordern.
+role="button"| Gibt an, dass ein Element als Schaltfläche fungiert, die vom Benutzer aktiviert werden kann.
+role="checkbox"| Gibt an, dass ein Element eine Checkbox ist, die vom Benutzer aktiviert oder deaktiviert werden kann.
+role="combobox"| Gibt an, dass ein Element eine Kombinationsfeld ist, das dem Benutzer eine Liste von Optionen zur Auswahl bietet.
+role="dialog"| Gibt an, dass ein Element ein Dialogfeld ist, das verwendet wird, um mit dem Benutzer zu interagieren und Informationen zu sammeln.
+role="grid"| Gibt an, dass ein Element eine Tabelle oder Raster von Daten enthält, die für den Benutzer navigierbar sind.
+role="link"| Gibt an, dass ein Element als Link fungiert, der den Benutzer zu einer anderen Seite oder einem anderen Bereich der aktuellen Seite führt.
+role="listbox"| Gibt an, dass ein Element eine Liste von Elementen enthält, aus der der Benutzer eine oder mehrere Optionen auswählen kann.
+role="menu"| Gibt an, dass ein Element eine Liste von Menüoptionen enthält, die vom Benutzer ausgewählt werden können.
+role="progressbar"| Gibt an, dass ein Element den Fortschritt eines Vorgangs anzeigt.
+role="radio"| Gibt an, dass ein Element ein Radiobutton ist, der vom Benutzer ausgewählt werden kann.
+role="slider"| Gibt an, dass ein Element einen Schieberegler enthält, der vom Benutzer bewegt werden kann, um einen Wert auszuwählen.
+role="spinbutton"| Gibt an, dass ein Element ein Spinner ist, der vom Benutzer verwendet werden kann, um einen numerischen Wert auszuwählen.
+role="tab"| Gibt an, dass ein Element als Registerkarte fungiert, die vom Benutzer ausgewählt werden kann, um zwischen verschiedenen Inhalten zu wechseln.
+role="textbox"| Gibt an, dass ein Element einen Textbereich enthält, in dem der Benutzer Text eingeben oder bearbeiten kann.
+uvm|
 
-# Safe-Colors für Farbenblinde Menschen
-
-Farbe | RGB | CMYK 
--------- | -------- | -------- |
-Schwarz | (0,0,0) | (0,0,0,100)
-Orange | (230,159,0) | (0,50,100,0)
-Blau | (86,190,233) | (80,0,0,0)
-Grün | (0,158,115) | (97,0,75,0)
-Gelb | (240,228,66) | (10,5,90,0)
-Dunkel-Blau | (0,114,178) | (100, 50, 0, 0)
-Dunkel-Orange | (213,94,0) | (0,80,100,0)
-Pink? | (204,121,167) | (10,70,0,0)
-<span>Quelle: https://www.extensis.com/de-de/blog/so-gestalten-sie-designs-f%C3%BCr-farbenblinde</span>
+<span>Quelle: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles </span>
 
 # Abstände und Text-Formattierung
 
@@ -76,6 +83,11 @@ Pink? | (204,121,167) | (10,70,0,0)
 * `<h4>` Eine geeignete Schriftgröße für `<h4>` liegt zwischen 16 und 20 Pixeln.
 * `<h5>` Eine geeignete Schriftgröße für `<h5>` liegt zwischen 14 und 18 Pixeln.
 * `<h6>` Eine geeignete Schriftgröße für `<h6>` liegt zwischen 12 und 16 Pixeln.
+
+## Beispiel Text und ARIA
+```sh
+<div role="tab"><h2>Heading tab</h2></div>
+```
 
 # Videos und Bilder
 

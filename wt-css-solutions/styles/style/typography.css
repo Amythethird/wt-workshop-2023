@@ -1,0 +1,64 @@
+h4,
+.h4 {
+  font-size: 1.333rem;
+  line-height: calc(2px + 2ex + 2px);
+  margin-bottom: 0.65em;
+  font-size: clamp(
+              1rem,
+              4.333vw + 1rem,
+              1.333rem
+      );
+}
+
+h3,
+.h3 {
+  font-size: 1.776889rem;
+  line-height: calc(2px + 2ex + 2px);
+  margin-bottom: 0.65em;
+  font-size: clamp(
+              1.19051563rem,
+              4.58637337vw + 1rem,
+              1.776889rem
+      );
+}
+
+h2,
+.h2 {
+  font-size: 2.368593037rem;
+  line-height: calc(2px + 2ex + 2px);
+  margin-bottom: 0.65em;
+  font-size: clamp(
+              1.5869573348rem,
+              4.7816357022vw + 1rem,
+              2.368593037rem
+      );
+}
+
+h1,
+.h1 {
+  font-size: 3.1573345183rem;
+  line-height: calc(2px + 2ex + 2px);
+  margin-bottom: 0.65em;
+  font-size: clamp(
+              2.1154141273rem,
+              5.041920391vw + 1rem,
+              3.1573345183rem
+      );
+}
+
+p,
+li,
+h1,
+h2,
+h3,
+h4 {
+  word-break: break-word;
+  hyphens: auto;
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=typography.css.map */

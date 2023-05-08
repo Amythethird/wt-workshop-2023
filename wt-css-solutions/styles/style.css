@@ -1,9 +1,15 @@
 @import "style/config.css";
 @import 'style/flex-box.css';
 @import "style/button.css";
+@import "style/gallery.css";
 @import "style/navigation.css";
 
 :root{
     --method : flexbox;
 
+}
+
+body{
+    margin: 0;
+    padding: 0;
 }
