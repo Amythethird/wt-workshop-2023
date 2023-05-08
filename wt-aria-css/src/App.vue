@@ -1,0 +1,16 @@
+<script setup>
+
+import Header from "./components/header/Header.vue";
+import Main from "./components/main_section/Main.vue";
+import Footer from "./components/footer_section/Footer.vue";
+</script>
+
+<template>
+<Header/>
+  <Main/>
+  <Footer/>
+</template>
+
+<style scoped>
+
+</style>

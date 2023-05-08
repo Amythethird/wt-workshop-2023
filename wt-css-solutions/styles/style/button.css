@@ -1,0 +1,45 @@
+.button_config {
+  background-color: initial;
+  border: initial;
+  border-radius: initial;
+  color: initial;
+  font-family: system-ui, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0;
+  max-height: none;
+  padding: initial;
+  text-decoration-color: initial;
+  text-decoration-thickness: auto;
+}
+
+.as_link:focus {
+  outline: max(1px, 0.1em) solid purple;
+  outline-offset: 0.25em;
+}
+
+.as_button {
+  background-color: purple;
+  color: white;
+  border-radius: 8px;
+  margin: 1rem;
+  padding: 1rem 2rem;
+}
+.as_button :focus {
+  outline: max(1px, 0.1em) dashed currentColor;
+  outline-offset: -0.25em;
+}
+
+.keyboard {
+  background-color: purple;
+  color: white;
+  border-radius: 8px;
+  margin: 1rem;
+  padding: 1rem 2rem;
+}
+.keyboard:focus-visible {
+  outline: max(1px, 0.1em) dashed currentColor;
+  outline-offset: -0.25em;
+}
+
+/*# sourceMappingURL=button.css.map */

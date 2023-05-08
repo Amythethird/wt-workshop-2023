@@ -1,0 +1,9 @@
+@import "style/config.css";
+@import 'style/flex-box.css';
+@import "style/button.css";
+@import "style/navigation.css";
+
+:root{
+    --method : flexbox;
+
+}
