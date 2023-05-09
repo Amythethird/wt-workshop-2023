@@ -86,8 +86,17 @@ uvm|
 
 ## Beispiel Text und ARIA
 ```sh
-<div role="tab"><h2>Heading tab</h2></div>
+<h5>Fruit Trees</h5>
+...
+<h6>Apples</h6>
+<p>Apples grow on trees in areas known as orchards...</p>
+...
+<div role="heading" aria-level="7">Jonagold/div>
+<p>Jonagold is a cross between the Golden Delicious and Jonathan varieties...</p>
 ```
+Der Beispiel Code erweitert die Headings um ein weiteres Level, da es standardmäßig nur 6 Level gibt.
+
+
 
 # Videos und Bilder
 
